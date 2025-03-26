@@ -69,8 +69,8 @@ fetch(url)
 
         // Vent du jour
         document.querySelector(".wind").innerHTML = `
-        <img src="/assets/img/compass.png" alt=""><br>
-        <img class= "boussole" src="/assets/img/compass-arrow.png" alt="">
+        <img src="assets/img/compass.png" alt=""><br>
+        <img class= "boussole" src="assets/img/compass-arrow.png" alt="">
         ${data.current.wind_speed_10m} km/h<br>
         `;
 
@@ -80,11 +80,11 @@ fetch(url)
 
         // Lever et coucher du soleil
         document.querySelector(".daytime").innerHTML = `
-        <img src="/assets/img/jour.png" alt="">
+        <img src="assets/img/jour.png" alt="">
         <p>${data.daily.sunrise[0].split("T")[1]}</p>`;
 
         document.querySelector(".nighttime").innerHTML = `
-        <img src="/assets/img/nuit.png" alt="">
+        <img src="assets/img/nuit.png" alt="">
         <p>${data.daily.sunset[0].split("T")[1]}</p>`;
 
         // Température et précipitations heure par heure  
