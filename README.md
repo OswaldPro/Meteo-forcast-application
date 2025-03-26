@@ -4,6 +4,8 @@
 
 Ce projet permet d'afficher les prévisions météorologiques horaires à l'aide d'une API météo. Les données récupérées comprennent la température, le type de temps (soleil, nuage, pluie, neige, orage) et les précipitations. Chaque prévision est illustrée avec une icône représentative.
 
+L'API utilisée pour accéder aux ressources : https://open-meteo.com/en/docs/meteofrance-api
+
 ## Fonctionnalités
 
 - Récupération des données météo via une API.
