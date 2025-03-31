@@ -23,7 +23,7 @@ L'API utilisée pour accéder aux ressources : https://open-meteo.com/en/docs/me
 
 1. Clonez le projet :
    ```sh
-   git clone https://github.com/votre-utilisateur/projet-meteo.git
+   git clone https://github.com/OswaldPro/Meteo-forcast-application/edit/main/README.md
    ```
 2. Ouvrez le fichier `index.html` dans un navigateur.
 3. Assurez-vous que l'API est bien accessible et que vous avez la bonne clé d'API (si nécessaire).
